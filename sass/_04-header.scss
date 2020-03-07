@@ -1,0 +1,45 @@
+.home header {
+    background-image: url('../assets/home-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+
+        .logo {
+            font-size: 4rem;
+            flex: 1 0 40%;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1 0 50%
+        }
+            li a{
+                font-size: 1.3rem;
+                font-weight: 700;
+                font-family: $title-font;
+                text-transform: uppercase;
+                transition: all .2s;
+                
+                &:hover,
+                &:focus {
+                    color: $button-color;
+                    
+                }
+
+                &:active {
+                    border-bottom: $button-color .2rem solid;
+                }
+            }
+       
+}
+
