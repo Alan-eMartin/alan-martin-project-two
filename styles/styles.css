@@ -389,8 +389,8 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
 }
 
 .about-info {
@@ -453,6 +453,8 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #f2f2f2;
 }
 
@@ -460,7 +462,7 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 6.5rem;
+  padding: 3.8rem;
 }
 
 .recipes-nav ul {
@@ -487,4 +489,50 @@ h4 {
 
 .recipes-nav ul p {
   font-size: 1rem;
+}
+
+.restaurants {
+  height: 705px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.restaurants-image {
+  position: relative;
+}
+
+.restaurants-image .circle-logo {
+  position: absolute;
+  top: -117px;
+  right: -82px;
+}
+
+.restaurants-info {
+  text-align: center;
+}
+
+.restaurants-info h2 {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.restaurants-info h2::after {
+  content: '';
+  background-color: #64a604;
+  height: 4px;
+  width: 6rem;
+  position: absolute;
+  left: 47%;
+  bottom: 2.4rem;
 }

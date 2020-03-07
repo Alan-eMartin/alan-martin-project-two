@@ -7,13 +7,14 @@
 
 .recipes {
     display: flex;
+    flex-wrap: wrap;
     background-color: $accent-color;
 }
 
 .recipes-nav { 
     display: flex;
     // margin: 0;   
-    padding: 6.5rem;
+    padding: 3.8rem;
     // padding: 5rem;
 
 
@@ -39,5 +40,5 @@
         p {
             font-size: 1rem;
         }
-}
+     }
 }   
