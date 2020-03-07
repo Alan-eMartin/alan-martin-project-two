@@ -492,7 +492,7 @@ h4 {
 }
 
 .restaurants {
-  height: 705px;
+  height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,4 +535,19 @@ h4 {
   position: absolute;
   left: 47%;
   bottom: 2.4rem;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gallery ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(100% / 3);
+          flex: 1 0 calc(100% / 3);
+  min-width: 300px;
 }
