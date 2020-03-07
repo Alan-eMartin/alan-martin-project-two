@@ -551,3 +551,62 @@ h4 {
           flex: 1 0 calc(100% / 3);
   min-width: 300px;
 }
+
+.featured-review {
+  background-color: #DDED9A;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10rem;
+}
+
+.review h2 {
+  font-size: 2.5rem;
+  padding: 3.5rem 0;
+  position: relative;
+}
+
+.review h2::after {
+  content: '';
+  background-color: #64a604;
+  height: 4px;
+  width: 6rem;
+  position: absolute;
+  left: 46.3%;
+  bottom: 1.4rem;
+}
+
+.review blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 700;
+  color: #333;
+}
+
+.arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem 0;
+  color: #f6f6f6;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
