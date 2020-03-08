@@ -43,19 +43,22 @@
        
 }
 
+//mobile menu
+
 header i.fa-bars {
     position: absolute;
     position: fixed;
     top: 2.5rem;
     right: 2.5rem;
-    color: black;
-    visibility: visible;
+    z-index: 1;
+    color: $button-color;
+    visibility: hidden;
     font-size: 4rem;
     transition: .2s;
 
     &:hover,
     &:focus {
-        color: $button-color;
+        color:  #8f6f0b;
     }
 
     &:active {
