@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delicious | Home</title>
+  <title>Delicious | Blog</title>
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i|Raleway:400,700&display=swap" rel="stylesheet">
   <link rel="D icon" type="image/png" href="/favicon/favicon.png">
   <script src="https://kit.fontawesome.com/ad6182cbac.js" crossorigin="anonymous"></script>
@@ -192,10 +192,31 @@
         </ul>
       </div>
 
-      <div class="commenter-form">
+      <div class="comment-form">
         <div class="commenter-form-title">
           <h3>Leave A Comment</h3>
           <p>Your email address will not be published. Required fields are marked*</p>
+        </div>
+        <div class="make-a-comment-form">
+          <div class="personal-info-comments">
+            <form action="">
+              <label for="name" hidden>Name</label>
+              <input type="text" name="name" id="name" placeholder="Name*" required>
+              <label for="email" hidden>email</label>
+              <input type="email" name="email" id="email" placeholder="Email*" required>
+              <label for="website-name" hidden>Your Website</label>
+              <input type="text" name="youWebsite" id="yourWebsite" placeholder="Your Website">
+            </form>
+          </div>
+
+          <div class="personal-comment-box">
+            <form action="">
+              <label for="userComment" hidden>Comment here</label>
+              <input type="text" name="userComment" id="userComment" placeholder="Comment">
+            </form>
+          </div>
+
+          <h4 class="button">Submit Comment</h4>
         </div>
 
       </div>

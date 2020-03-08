@@ -15,7 +15,7 @@ footer {
 .footer-box {
     flex: 1 0 calc(100% / 3);
     min-width: 290px;
-    padding: 0 5rem;
+    padding-right: 5rem;
 
     p {
         padding: 1rem 0;
@@ -131,7 +131,6 @@ footer {
     right: 0;
     left: 0;
     bottom: 0;
-    padding: 0 8rem;
     color: #9a9a9a;
     font-family: $title-font;
 

@@ -174,6 +174,59 @@
     }
 }
 
+//comment forms
+
+.commenter-form-title {
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-style: italic;
+        color: lighten($color: $par-color, $amount: 10%);
+        padding: 1rem 0;
+    }
+}
+
+.personal-info-comments  form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    input {
+        width: calc((100% / 3) - 1rem);
+        height: 4rem;
+        margin-bottom: 1rem;
+
+        &[type="text"] {
+            padding-left: .8rem;
+        }
+    }
+}
+
+.personal-comment-box form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20rem;
+
+    input {
+        
+        width: 100%;
+        min-height: 20rem;
+        margin-bottom: 1rem;
+        ;
+
+        &[type="text"] {
+            padding-left: .8rem;
+        }
+    }
+}
+
+.blog .button {
+    margin: 2rem 0 10rem 0;
+}
 //changed pixel size of border bottom for blog page
 .blog .hr-bottom {
     border-bottom: $par-color solid .1rem;
