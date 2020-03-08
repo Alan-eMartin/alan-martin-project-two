@@ -1,0 +1,180 @@
+.blog-title {
+
+
+    h1 {
+        font-size: 3rem;
+        padding: 15rem 0 1rem 0;
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: $title-font; 
+        padding-bottom: 3rem;
+    }
+}
+
+.blog-content ul {
+
+    li {
+        font-size: 1.2rem;
+        padding-bottom: 3rem;
+    }
+}
+
+//blog socials nav 
+
+.blog-tags {
+    padding: 2rem 0;
+
+    .blog-socials li a {
+        font-size: 1.6rem;
+    }
+
+    ul {
+        display: flex;
+        padding-bottom: 2rem;
+
+
+
+        li a {
+            padding-left: 1rem;
+            color: (lighten($color:$par-color, $amount: 20%));
+
+            &:hover,
+            &:focus {
+                color: $button-color;
+                    
+            }
+
+            &:active {
+                color: $accent-color-3;
+            }
+        }
+
+    }
+
+    h5 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: $title-font;
+    }
+  
+}
+
+// profile 
+
+.feat-blogger {
+    display: grid;
+    grid-template-columns: 15% 80%;
+    padding-bottom: 2rem;
+
+    .blogger-info {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        padding: 3rem 4rem;
+        background-color: $par-color-2;
+
+        h3 {
+            padding-bottom: 1.5rem;
+        }
+        
+    }
+
+    .blogger-image {
+        margin-right: 2rem;
+    }
+
+    
+}
+
+//related posts
+
+.related-posts {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    h2 {
+        padding: 3rem 0;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        // align-content: center;
+
+        li:nth-last-of-type(2) {
+            margin: 0 2rem;
+        }
+
+        li {
+            flex: 1 0 calc((100% / 3) - 4rem); 
+            min-width: 250px; 
+            
+            h2 {
+                font-size: 1.7rem;
+                padding: 1rem;
+            }
+
+            p {
+                padding-bottom: 3rem;
+            }
+        }
+    }
+}
+
+// comments
+
+.comments-header {
+    padding: 2rem 0;
+}
+
+.user-comments-box ul {
+    padding: 2.5rem 0;
+
+    li {
+        display: flex;
+        padding-bottom: 2rem;
+        
+    }
+}
+
+.commenter {
+
+    .commenter-image {
+        padding-right: 2rem;
+    }
+
+    .comment-box {
+
+        background-color: $par-color-2;
+        padding: 2rem;
+        position: relative;
+
+        .user-name span,
+        .user-post-date {
+
+            font-weight: 700;
+            font-family: $title-font;
+        }
+
+        .user-comment {
+            padding: 1rem 0;
+        }
+
+        .comment-box-tip {
+            color: $par-color-2;
+            font-size: 3.6rem;
+            position: absolute;
+            top: 9px;
+            left: -9px;
+        }
+    }
+}
+
+//changed pixel size of border bottom for blog page
+.blog .hr-bottom {
+    border-bottom: $par-color solid .1rem;
+}

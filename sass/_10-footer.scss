@@ -14,7 +14,7 @@ footer {
 
 .footer-box {
     flex: 1 0 calc(100% / 3);
-    min-width: 375px;
+    min-width: 290px;
     padding: 0 5rem;
 
     p {
@@ -57,7 +57,7 @@ footer {
     form {
         padding: 0;
         height: 4rem;
-        width: 80%;
+        width: 100%;
 
         input[type="text"] {
             border: none;

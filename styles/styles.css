@@ -705,7 +705,7 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 calc(100% / 3);
           flex: 1 0 calc(100% / 3);
-  min-width: 375px;
+  min-width: 290px;
   padding: 0 5rem;
 }
 
@@ -750,7 +750,7 @@ footer {
 .email-sub form {
   padding: 0;
   height: 4rem;
-  width: 80%;
+  width: 100%;
 }
 
 .email-sub form input[type="text"] {
@@ -834,4 +834,176 @@ footer {
 
 .copyright span span.secret-dot {
   color: #8f6f0b;
+}
+
+.blog-title h1 {
+  font-size: 3rem;
+  padding: 15rem 0 1rem 0;
+}
+
+.blog-title p {
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "raleway", sans-serif;
+  padding-bottom: 3rem;
+}
+
+.blog-content ul li {
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+}
+
+.blog-tags {
+  padding: 2rem 0;
+}
+
+.blog-tags .blog-socials li a {
+  font-size: 1.6rem;
+}
+
+.blog-tags ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.blog-tags ul li a {
+  padding-left: 1rem;
+  color: #666666;
+}
+
+.blog-tags ul li a:hover, .blog-tags ul li a:focus {
+  color: #64a604;
+}
+
+.blog-tags ul li a:active {
+  color: #DC1570;
+}
+
+.blog-tags h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "raleway", sans-serif;
+}
+
+.feat-blogger {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 80%;
+      grid-template-columns: 15% 80%;
+  padding-bottom: 2rem;
+}
+
+.feat-blogger .blogger-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem 4rem;
+  background-color: #f6f6f6;
+}
+
+.feat-blogger .blogger-info h3 {
+  padding-bottom: 1.5rem;
+}
+
+.feat-blogger .blogger-image {
+  margin-right: 2rem;
+}
+
+.related-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.related-posts h2 {
+  padding: 3rem 0;
+}
+
+.related-posts ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.related-posts ul li:nth-last-of-type(2) {
+  margin: 0 2rem;
+}
+
+.related-posts ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc((100% / 3) - 4rem);
+          flex: 1 0 calc((100% / 3) - 4rem);
+  min-width: 250px;
+}
+
+.related-posts ul li h2 {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+.related-posts ul li p {
+  padding-bottom: 3rem;
+}
+
+.comments-header {
+  padding: 2rem 0;
+}
+
+.user-comments-box ul {
+  padding: 2.5rem 0;
+}
+
+.user-comments-box ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.commenter .commenter-image {
+  padding-right: 2rem;
+}
+
+.commenter .comment-box {
+  background-color: #f6f6f6;
+  padding: 2rem;
+  position: relative;
+}
+
+.commenter .comment-box .user-name span,
+.commenter .comment-box .user-post-date {
+  font-weight: 700;
+  font-family: "raleway", sans-serif;
+}
+
+.commenter .comment-box .user-comment {
+  padding: 1rem 0;
+}
+
+.commenter .comment-box .comment-box-tip {
+  color: #f6f6f6;
+  font-size: 3.6rem;
+  position: absolute;
+  top: 9px;
+  left: -9px;
+}
+
+.blog .hr-bottom {
+  border-bottom: #333 solid 0.1rem;
 }
