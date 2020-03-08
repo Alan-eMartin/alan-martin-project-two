@@ -37,9 +37,31 @@
                 }
 
                 &:active {
-                    border-bottom: $button-color .2rem solid;
+                    color: $accent-color-3;
                 }
             }
        
+}
+
+header i.fa-bars {
+    position: absolute;
+    position: fixed;
+    top: 2.5rem;
+    right: 2.5rem;
+    color: black;
+    visibility: visible;
+    font-size: 4rem;
+    transition: .2s;
+
+    &:hover,
+    &:focus {
+        color: $button-color;
+    }
+
+    &:active {
+        color: $accent-color-3;
+    }
+
+
 }
 

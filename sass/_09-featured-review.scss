@@ -33,6 +33,23 @@
         font-style: italic;
         font-weight: 700;
         color: $par-color;
+        position: relative;
+
+        .left-quotes,
+        .right-quotes {
+            position: absolute;
+            font-size: 3.3rem;
+            color: $par-color-2;
+        }
+        .left-quotes {
+            top: -1.5rem;
+            left: -4.1rem;
+        }
+        .right-quotes {
+            bottom: .3rem;
+            right: -4.1rem;
+        }
+        
     }
 }
 
@@ -40,6 +57,22 @@
     display: flex;
     justify-content: center;
     padding: 3rem 0;
-    color: $par-color-2;
+    color: $body-color-1;
     transition: all .2s;
+
+    h4 a {
+        font-size: 2rem;
+        padding: 0 2rem;
+        
+        &:hover,
+        &:focus {
+            color: #ffffff;
+        }
+        &:active {
+            color: $accent-color-3;
+        }
+    }
+
+
+        
 }

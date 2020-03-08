@@ -26,8 +26,18 @@
                 width: calc(100% / 2);
                 position: relative;
                 padding: 0 2rem;
+
+                a:hover,
+                a:focus {
+                    color: $button-color;
+                }
+
+                a:active {
+                    color: $accent-color-3;
+                }
                 
             }
+
         
         .recipe-icon {
             font-size: 2.5rem;

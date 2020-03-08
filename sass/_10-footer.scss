@@ -1,0 +1,126 @@
+footer {
+     background-color: #2a2a2a;
+     position: relative;
+     padding: 10rem 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: $par-color;
+    
+    
+}
+
+.footer-box {
+    flex: 1 0 calc((100% / 3) - 2rem);
+    min-width: 375px;
+    margin: 0 .5rem;
+    padding: 0 8rem;
+
+    p {
+        padding-bottom: 1.5rem;
+        color: #9a9a9a;
+        transition: all .3s;
+        
+        a:hover,
+        a:focus {
+            color: $button-color;
+        }
+
+        a:active {
+            color: $accent-color-3;
+        }
+    }
+    
+    .logo-2 {
+    font-size: 2.6rem;
+    color: $button-color;
+    }
+
+    .footer-header {
+        font-size: 1.6rem;
+        color: $button-text;
+    }
+
+    .logo-2,
+    .footer-header {
+        padding-bottom: 2rem;
+    }
+
+}
+
+//form
+
+.email-sub {
+    display: flex;
+    padding-bottom: 1.5rem;
+    form {
+        padding: 0;
+        height: 4rem;
+        width: 100%;
+
+        input[type="text"] {
+            border: none;
+            background-color: #525252;
+            color: #9a9a9a;
+            padding-left: 1rem;
+            width: 90%;
+
+        }
+
+        .footer-sub-button {
+            width: 20%;
+            background-color: $button-color;
+            position: relative;
+
+            i.fa-long-arrow-alt-right {
+                position: absolute;
+                top: 0.8rem;
+                right: 1.1rem;
+                font-size: 2.3rem;
+                color: $button-text;
+            }
+        }
+    }
+}
+
+.footer-socials-nav {
+    padding-top: .4rem;
+}
+
+.footer-socials-nav ul {
+    display: flex;
+
+    li a {
+        color: $button-text;
+        font-size: 1.5rem;
+        padding-right: 1.5rem;
+    };
+}
+
+//copyright
+
+.copyright {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 5rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 8rem;
+    color: #9a9a9a;
+    font-family: $title-font;
+
+    span {
+        color: $button-color;
+        text-transform: uppercase;
+        span.secret-dot {
+            color: #8f6f0b;
+        }
+    }
+}
+
+
