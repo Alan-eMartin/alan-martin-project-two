@@ -2,39 +2,44 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delicious | Blog</title>
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i|Raleway:400,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/ad6182cbac.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/styles.css">
+
 </head>
 
 <body class="blog" id="blog">
-  <!-- header starts here -->
-  <header class="header" id="header">
+
+  <!-- header start -->
+  <header>
     <div class="wrapper">
+
       <nav class="header-nav">
-        <h1>Delicious</h1>
+        <h1 class="logo">Delicious</h1>
         <ul>
-          <li><a href="#index">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#recipes">Recipes</a></li>
-          <li><a href="">Nutrition</a></li>
+          <li><a href="#nutrition">Nutrition</a></li>
           <li><a href="#blog">Blog</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a href=""><i class="fas fa-shopping-bag"></i></a>
-          </li>
-          <li>
-            <a href=""><i class="fas fa-search"></i></a>
-          </li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
         </ul>
+        <!-- hamburger menu for mobile -->
+        <i class="fa fa-bars"></i>
       </nav>
+
     </div>
   </header>
-  <!-- header ends here -->
+
+  <!-- header end -->
+
+
   <!-- main starts here -->
   <main>
     <!-- recipes blog starts here -->
@@ -43,7 +48,7 @@
         <h2>Pineapple Chicken</h2>
         <p><strong>Posted on July 11, 2018 | by admin | Recipes</strong></p>
       </div>
-      <div class="recipes-blog-steps">
+      <div class="recipes-blog-text">
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque fuga
           obcaecati voluptatibus iure reiciendis.
@@ -146,80 +151,92 @@
     <!-- comments section end -->
   </main>
   <!-- main ends here -->
-  <!-- Footer section start -->
+  <!-- footer start -->
   <footer>
-    <!-- footer section one -->
-    <section class="footer-one">
-      <h2 class="logo">Delicious</h2>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-        tenetur. Aliquam, quia! Deserunt, sequi. Iure aliquid deserunt animi
-        ex praesentium.
-      </p>
-      <hr />
-      <p>
-        A delicious restaurant<br />
-        Toronto, Ontario
-      </p>
-      <hr />
-      <p>yum@food.com</p>
-      <hr />
-      <p>+1 234 567 8910</p>
-    </section>
-    <!-- footer section two -->
-    <section class="footer-two">
-      <h3>Recent Posts</h3>
-      <nav class="footer-posts-nav">
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <hr />
-        </ul>
-      </nav>
-    </section>
-    <!-- footer section three -->
-    <section class="footer-three">
-      <h3>Subscribe Now</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam,
-        fugiat beatae?
-      </p>
-      <form action="" class="subscribe">
-        <input type="email" name="subscribe" id="subscribe" placeholder="Enter your email here" />
-        <button type="submit">
-          <i class="fas fa-long-arrow-alt-right"></i>
-        </button>
-      </form>
-      <hr />
-      <nav class="footer-socials-nav">
-        <ul>
-          <li>
-            <a href="#"><i class="fab fa-facebook-f" aria-hidden="true" title="Link to Facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-twitter" aria-hidden="true" title="Link to Twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fab fa-instagram" aria-hidden="true" title="Link to Instagram"></i></a>
-          </li>
-        </ul>
-      </nav>
-    </section>
-    <div class="copyright">
-      <p>Copyright © 2015 <span>Polar</span> All Rights Reserved</p>
+    <div class="wrapper">
+      <div class="footer">
+        <!-- footer box left -->
+        <div class="footer-box">
+          <h3 class="logo-2">Delicious</h3>
+          <p class="hr-bottom">
+            Take it up with Toby. What I want you to do, is I want you to look inward, and I want you to
+            reflect,
+          </p>
+          <p class="hr-bottom">
+            A delicious restaurant<br>
+            Toronto, Ontario
+          </p>
+          <p class="hr-bottom">
+            yum@food.com
+          </p>
+          <p>+1 234 567 8910</p>
+        </div>
+        <!-- footer box middle -->
+        <div class="footer-box">
+          <h3 class="footer-header">
+            Recent Posts
+          </h3>
+          <p class="hr-bottom" title="Link to recent post">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p class="hr-bottom" title="Link to recent post">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p class="hr-bottom" title="Link to recent post">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p class="hr-bottom" title="Link to recent post">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p class="hr-bottom" title="Link to recent post">
+            <a href="#">Lorem ipsum dolor sit amet.</a>
+          </p>
+          <p>
+            <a href="#" title="Link to recent post">Lorem ipsum dolor sit amet.</a>
+          </p>
+        </div>
+        <!-- footer box right -->
+        <div class="footer-box">
+          <h3 class="footer-header">
+            Subscribe Now
+          </h3>
+          <p>Get some recipes here y'alllll!! yum yum taste soo good, let us send you spam (the meat duh)</p>
+          <div class="email-sub hr-bottom">
+            <form action="post" class="email-sub">
+              <label for="email" hidden aria-label="Email">Email</label>
+              <input type="text" name="email" id="email" placeholder="Enter your email" required>
+
+              <h4 class="footer-sub-button">
+                <a href="#">
+                  <i class="fas fa-long-arrow-alt-right" aria-hidden="true" title="click to submit"></i>
+                </a>
+              </h4>
+            </form>
+          </div>
+          <nav class="footer-socials-nav">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-f" aria-hidden="true" title="Link to Facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true" title="Link to Twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true" title="Link to Instagram"></i></a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
     </div>
+    <div class="copyright">
+      <p class="wrapper">Copyrights © 2015 <span>Polar<span class="secret-dot">.</span></span> All Rights Reserved
+      </p>
+    </div>
+
   </footer>
-  <!-- Footer section end  -->
 
-</body>
-
-</html>
+  <!-- footer end -->

@@ -329,6 +329,20 @@ h4 {
   height: 100vh;
 }
 
+.blog header {
+  background-image: url("../assets/blog-1.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.contact header {
+  background-image: url("../assets/contact-1.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;

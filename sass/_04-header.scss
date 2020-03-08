@@ -1,8 +1,26 @@
+
+//index header
 .home header {
     background-image: url('../assets/home-1.jpeg');
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+//header blog
+.blog header {
+    background-image: url('../assets/blog-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+//header contact
+.contact header {
+    background-image: url('../assets/contact-1.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
 }
 
 
