@@ -110,12 +110,27 @@
         }
 
         li {
-            flex: 1 0 calc((100% / 3) - 4rem); 
+            flex: 1 0 calc((100% / 3) - 4.4rem); 
             min-width: 250px; 
             
-            h2 {
+
+            img {
+                border: transparent solid .2rem;
+            }
+            
+            img:hover,
+            img:focus {
+                border: $button-color solid .2rem;        
+            }
+
+            img:active {
+                border: $accent-color-3 solid .2rem;
+            }
+            
+            h2 a{
                 font-size: 1.7rem;
                 padding: 1rem;
+
             }
 
             p {

@@ -1,0 +1,90 @@
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    // margin-left: 5%;
+
+    h1 {
+        padding: 6rem 0 4rem 0;
+    }
+}
+
+.contact-form {
+    flex: 1 0 60%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 9rem 6rem;
+    
+}
+
+.contact-name-form form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    input {
+        width: calc((100% / 2) - 1rem);
+        min-width: 330px;
+        height: 4rem;
+        margin-bottom: 1rem;
+
+        &[type="text"] {
+            padding-left: .8rem;
+        }
+    }
+}
+
+.contact-reason form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    
+    
+
+    input {
+        height: 4rem;
+    }
+
+}
+
+.contact-reason-message {
+    display: flex;
+    padding-bottom: 4rem;
+    
+
+    input {
+        height: 30rem;
+        width: 100%;
+    }
+}
+
+.contact-button {
+    
+    font-weight: 1.8rem;
+
+    &:hover,
+    &:focus {
+        color: $button-color;
+    }
+
+    &:active {
+        color: $accent-color-3;
+    }
+
+
+}
+
+.contact input[type="text"] {
+    background-color: $button-text;
+    border: none;
+    padding-left: .5rem;
+}
+
+.contact-details {
+    flex: 1 0 40%;
+    background-color: $button-text;
+    padding: 6rem 0 6rem 2rem;
+    width: 50%;
+}
+
