@@ -84,7 +84,39 @@
 .contact-details {
     flex: 1 0 40%;
     background-color: $button-text;
-    padding: 6rem 0 6rem 2rem;
-    width: 50%;
+    padding: 8.5rem 4rem 6rem 2rem;
+    width: 50%
+
+    
+    h2 {
+        font-size: 2rem;
+        padding-bottom: 5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact-info h3 {
+        padding-top: 2rem;
+    }
+
+    .contact-details-2 p {
+        padding-bottom: 6rem;
+    }
+
+    .address {
+        padding-bottom: 3rem;
+    }
+
+    .contact-info p {
+        padding-bottom: 2rem;
+    }
+
+    .contact-hours span {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 }
 

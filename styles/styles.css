@@ -395,8 +395,8 @@ h4 {
 header i.fa-bars {
   position: absolute;
   position: fixed;
-  top: 2.5rem;
-  right: 2.5rem;
+  top: 1.7rem;
+  right: 1.4rem;
   z-index: 1;
   color: #64a604;
   visibility: hidden;
@@ -443,7 +443,7 @@ header i.fa-bars:active {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 0 5.5rem;
+  padding: 3rem 5.5rem;
 }
 
 .about-info h2 {
@@ -470,7 +470,7 @@ header i.fa-bars:active {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  min-width: 475px;
+  min-width: 50rem;
 }
 
 .box img {
@@ -1175,6 +1175,106 @@ footer {
       -ms-flex: 1 0 40%;
           flex: 1 0 40%;
   background-color: #f6f6f6;
-  padding: 6rem 0 6rem 2rem;
-  width: 50%;
+  padding: 8.5rem 4rem 6rem 2rem;
+  width: 50% h2;
+  width-font-size: 2rem;
+  width-padding-bottom: 5rem;
+}
+
+.contact-details h3 {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.contact-details .contact-info h3 {
+  padding-top: 2rem;
+}
+
+.contact-details .contact-details-2 p {
+  padding-bottom: 6rem;
+}
+
+.contact-details .address {
+  padding-bottom: 3rem;
+}
+
+.contact-details .contact-info p {
+  padding-bottom: 2rem;
+}
+
+.contact-details .contact-hours span {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    height: 600px;
+  }
+  .recipes-nav ul li {
+    padding: 0 3rem 2rem;
+  }
+}
+
+@media (max-width: 967px) {
+  .header-nav ul {
+    display: none;
+  }
+  header i.fa-bars {
+    visibility: visible;
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  .footer-box {
+    padding-right: 0;
+    padding: 0 6rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+
+@media (max-width: 735px) {
+  .restaurants-image .circle-logo {
+    top: -116.8px;
+    right: 149px;
+  }
+  .review {
+    padding: 0;
+  }
+  .review h2::after {
+    left: 42.3%;
+  }
+}
+
+@media (max-width: 590px) {
+  .recipes-nav ul li {
+    width: 100%;
+    padding-right: 2rem;
+  }
+  .box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    min-width: 0px;
+  }
+  .restaurants-info h2::after {
+    left: 43.3%;
+  }
+  .restaurants-image .circle-logo {
+    display: none;
+  }
+  .review blockquote .left-quotes,
+  .review blockquote .right-quotes {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .recipes-box {
+    height: 800px;
+  }
 }
