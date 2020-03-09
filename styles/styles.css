@@ -1030,6 +1030,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1225,6 +1227,7 @@ footer {
   }
   footer {
     padding: 2rem 0;
+    height: 70rem;
   }
   .footer-box {
     padding-right: 0;
@@ -1247,6 +1250,9 @@ footer {
   }
   .review h2::after {
     left: 42.3%;
+  }
+  footer {
+    height: 99rem;
   }
 }
 
@@ -1276,5 +1282,47 @@ footer {
 @media (max-width: 490px) {
   .recipes-box {
     height: 800px;
+  }
+  .blog-title h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 350px) {
+  footer {
+    height: 110rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .related-posts ul li:nth-last-of-type(2) {
+    margin: 0;
+  }
+  .related-posts-nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 726px) {
+  .feat-blogger {
+    display: block;
+  }
+  .feat-blogger .blogger-image {
+    display: none;
+  }
+  .commenter .commenter-image {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .personal-info-comments form input {
+    width: 100%;
   }
 }

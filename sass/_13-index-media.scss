@@ -25,6 +25,7 @@
 
     footer {
         padding: 2rem 0;
+        height:  70rem;
     }
 
     .footer-box {
@@ -54,6 +55,10 @@
 
     .review h2::after {
 	left: 42.3%;
+    }
+    
+    footer {
+        height: 99rem;
     }
 
 }
@@ -86,15 +91,27 @@
 	font-size: 1.6rem;
     }
 
-    
+   
+     
 }
-
 
 
 @media (max-width: 490px) {
 
     .recipes-box {
         height: 800px;
+    }
+
+    .blog-title h1 {
+        font-size: 2.3rem;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    footer {
+        height: 110rem;
     }
 }
 
