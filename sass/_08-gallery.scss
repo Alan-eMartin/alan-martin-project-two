@@ -1,9 +1,9 @@
-.gallery ul{
-    display: flex;
-    flex-wrap: wrap;
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
 
-    li {
-        flex: 1 0 calc(100% / 3);
-        min-width: 300px;
-    }
+  li {
+    flex: 1 0 calc(100% / 3);
+    min-width: 300px;
+  }
 }

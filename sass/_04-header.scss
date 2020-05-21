@@ -1,88 +1,80 @@
-
 //index header
 .home header {
-    background-image: url('../assets/home-1.jpeg');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+  background-image: url('../assets/home-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 //header blog
 .blog header {
-    background-image: url('../assets/blog-1.jpeg');
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+  background-image: url('../assets/blog-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
 //header contact
 .contact header {
-    background-image: url('../assets/contact-1.jpeg');
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+  background-image: url('../assets/contact-1.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
-
-
 .header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+
+  .logo {
+    font-size: 4rem;
+    flex: 1 0 35%;
+  }
+
+  ul {
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+    align-items: center;
+    flex: 1 0 65%;
+  }
+  li a {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: $title-font;
+    text-transform: uppercase;
+    transition: all 0.2s;
 
-        .logo {
-            font-size: 4rem;
-            flex: 1 0 40%;
-        }
+    &:hover,
+    &:focus {
+      color: $button-color;
+    }
 
-        ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex: 1 0 50%
-        }
-            li a{
-                font-size: 1.3rem;
-                font-weight: 700;
-                font-family: $title-font;
-                text-transform: uppercase;
-                transition: all .2s;
-                
-                &:hover,
-                &:focus {
-                    color: $button-color;
-                    
-                }
-
-                &:active {
-                    color: $accent-color-3;
-                }
-            }
-       
+    &:active {
+      color: $accent-color-3;
+    }
+  }
 }
 
 //mobile menu
 
 header i.fa-bars {
-    position: absolute;
-    position: fixed;
-    top: 1.7rem;
-    right: 1.4rem;
-    z-index: 1;
-    color: $button-color;
-    visibility: hidden;
-    font-size: 4rem;
-    transition: .2s;
+  position: absolute;
+  position: fixed;
+  top: 1.7rem;
+  right: 1.4rem;
+  z-index: 1;
+  color: $button-color;
+  visibility: hidden;
+  font-size: 4rem;
+  transition: 0.2s;
 
-    &:hover,
-    &:focus {
-        color:  #8f6f0b;
-    }
+  &:hover,
+  &:focus {
+    color: #8f6f0b;
+  }
 
-    &:active {
-        color: $accent-color-3;
-    }
-
-
+  &:active {
+    color: $accent-color-3;
+  }
 }
-

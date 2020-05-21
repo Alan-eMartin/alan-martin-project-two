@@ -1,51 +1,49 @@
 .about-image {
-    background-image: url(../assets/home-2.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(../assets/home-2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about {
-    display: flex;
-    flex-wrap: wrap-reverse;
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .about-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 3rem 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 5.5rem;
 
-        h2 {
-            font-size: 2rem;
-            position: relative;
-            padding-bottom: 5rem;
+  h2 {
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 5rem;
 
-                &::after {
-                    content: '';
-                    background-color: $button-color;
-                    height: 4px;
-                    width: 6rem ;
-                    position: absolute;
-                    left: 42%;
-                    bottom: 2.7rem;
-                }    
-        }
-        
-        p {
-            padding-bottom: 4rem;
-        }
+    &::after {
+      content: '';
+      background-color: $button-color;
+      height: 4px;
+      width: 6rem;
+      position: absolute;
+      left: 42%;
+      bottom: 2.7rem;
+    }
+  }
 
+  p {
+    padding-bottom: 4rem;
+  }
 }
 
 .box {
-    flex: 1 0 50%;
-    min-width: 50rem;
+  flex: 1 0 50%;
+  min-width: 50rem;
 }
 
 .box img {
-    visibility: hidden;
+  visibility: hidden;
 }
-

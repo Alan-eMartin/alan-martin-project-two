@@ -1,78 +1,73 @@
 .featured-review {
-    background-color: $accent-color-2;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  background-color: $accent-color-2;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .review {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
 
-    h2 {
-        font-size: 2.5rem;
-        padding: 3.5rem 0;
-        position: relative;
+  h2 {
+    font-size: 2.5rem;
+    padding: 3.5rem 0;
+    position: relative;
 
-        &::after {
-            content: '';
-                background-color: $button-color;
-                height: 4px;
-                width: 6rem ;
-                position: absolute;
-                left: 46.3%;
-                bottom: 1.4rem;
-        }
+    &::after {
+      content: '';
+      background-color: $button-color;
+      height: 4px;
+      width: 6rem;
+      position: absolute;
+      left: 46.3%;
+      bottom: 1.4rem;
     }
+  }
 
-    blockquote {
+  blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 700;
+    color: $par-color;
+    position: relative;
 
-        font-size: 1.1rem;
-        font-style: italic;
-        font-weight: 700;
-        color: $par-color;
-        position: relative;
-
-        .left-quotes,
-        .right-quotes {
-            position: absolute;
-            font-size: 3.3rem;
-            color: $par-color-2;
-        }
-        .left-quotes {
-            top: -1.5rem;
-            left: -4.1rem;
-        }
-        .right-quotes {
-            bottom: .3rem;
-            right: -4.1rem;
-        }
-        
+    .left-quotes,
+    .right-quotes {
+      position: absolute;
+      font-size: 3.3rem;
+      color: $par-color-2;
     }
+    .left-quotes {
+      top: -1.5rem;
+      left: -4.1rem;
+    }
+    .right-quotes {
+      bottom: 0.3rem;
+      right: -4.1rem;
+    }
+  }
 }
 
 .arrows {
-    display: flex;
-    justify-content: center;
-    padding: 3rem 0;
-    color: $body-color-1;
-    transition: all .2s;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  color: $body-color-1;
+  transition: all 0.2s;
 
-    h4 a {
-        font-size: 2rem;
-        padding: 0 2rem;
-        
-        &:hover,
-        &:focus {
-            color: #ffffff;
-        }
-        &:active {
-            color: $accent-color-3;
-        }
+  h4 a {
+    font-size: 2rem;
+    padding: 0 2rem;
+
+    &:hover,
+    &:focus {
+      color: #ffffff;
     }
-
-
-        
+    &:active {
+      color: $accent-color-3;
+    }
+  }
 }

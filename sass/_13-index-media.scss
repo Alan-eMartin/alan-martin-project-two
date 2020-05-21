@@ -1,120 +1,94 @@
-
-
-
 @media (max-width: 1000px) {
-    
-    .box {
-        height: 600px;
-    }
+  .box {
+    height: 600px;
+  }
 
-    .recipes-nav ul li {
-
+  .recipes-nav ul li {
     padding: 0 3rem 2rem;
-}
-
+  }
 }
 @media (max-width: 967px) {
-    
-    .header-nav ul {
-        display: none;
-    }
+  .header-nav ul {
+    display: none;
+  }
 
-    header i.fa-bars {
-        visibility: visible;
-    }
+  header i.fa-bars {
+    visibility: visible;
+  }
 
-    footer {
-        padding: 2rem 0;
-        height:  70rem;
-    }
+  footer {
+    padding: 2rem 0;
+    height: 70rem;
+  }
 
-    .footer-box {
-        padding-right: 0;
-        padding: 0 6rem;
-        text-align: center;
-        padding-top: 4rem;
-    }
+  .footer-box {
+    padding-right: 0;
+    padding: 0 6rem;
+    text-align: center;
+    padding-top: 4rem;
+  }
 
-    .copyright {
-        text-align: center;
-    }
-
-    
+  .copyright {
+    text-align: center;
+  }
 }
 
 @media (max-width: 735px) {
-    
-    .restaurants-image .circle-logo {
+  .restaurants-image .circle-logo {
     top: -116.8px;
     right: 149px;
-    }
+  }
 
-    .review {
-	padding: 0;
-    }
+  .review {
+    padding: 0;
+  }
 
-    .review h2::after {
-	left: 42.3%;
-    }
-    
-    footer {
-        height: 99rem;
-    }
+  .review h2::after {
+    left: 42.3%;
+  }
 
+  footer {
+    height: 99rem;
+  }
 }
 
 @media (max-width: 590px) {
-    
+  .recipes-nav ul li {
+    width: 100%;
+    padding-right: 2rem;
+  }
 
-
-    .recipes-nav ul li {
-        width: 100%;
-        padding-right: 2rem;
-    }
-    
-    .box {
+  .box {
     flex: 1 0 100%;
     min-width: 0px;
-    }
+  }
 
-    .restaurants-info h2::after {
-	left: 43.3%;
+  .restaurants-info h2::after {
+    left: 43.3%;
+  }
 
-    }
-
-    .restaurants-image .circle-logo {
+  .restaurants-image .circle-logo {
     display: none;
-    }
+  }
 
-    .review blockquote .left-quotes, 
-    .review blockquote .right-quotes {
-	font-size: 1.6rem;
-    }
-
-   
-     
+  .review blockquote .left-quotes,
+  .review blockquote .right-quotes {
+    font-size: 1.6rem;
+  }
 }
-
 
 @media (max-width: 490px) {
+  .recipes-box {
+    height: 800px;
+  }
 
-    .recipes-box {
-        height: 800px;
-    }
-
-    .blog-title h1 {
-        font-size: 2.3rem;
-    }
+  .blog-title h1 {
+    font-size: 2.3rem;
+  }
 }
-
 
 @media (max-width: 350px) {
-
-    footer {
-        height: 110rem;
-    }
+  footer {
+    height: 110rem;
+  }
 }
-
-
-
-
