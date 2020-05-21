@@ -1,7 +1,4 @@
-# alan-martin-project-two
-live version: https://alan-emartin.github.io/alan-martin-project-two/index.html
-## Description
+#Delicious
+HTML | Sass
 
-Delicious is a responsive three page client PSD conversion, based on a food blog / restaurant.
-
-## HTML | Sass
+Delicious is a fully responsive three page psd conversion. This was project was a part of Juno College of Technologys Immersive Bootcamp.
