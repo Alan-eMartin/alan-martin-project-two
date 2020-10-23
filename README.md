@@ -1,4 +1,10 @@
-# Delicious
-HTML | Sass
+## Delicious
 
-Delicious is a fully responsive three page psd conversion. This was project was a part of Juno College of Technology's Immersive Bootcamp. Check out the live version here: https://alan-emartin.github.io/alan-martin-project-two/index.html .
+### Stack
+- HTML5
+- SASS
+
+### Description
+Delicious is a fully responsive and three page conversion using HTML5 and SASS. This project was part of Juno College's Immersive FE Bootcamp.
+
+### [See it Live!](https://alan-emartin.github.io/alan-martin-project-two/index.html)
